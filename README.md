@@ -1,10 +1,8 @@
 # React Video Player
 
-### Overview
-
 ### The project
 
-### Covered concepts
+In this project I implement a video player with ability to add videos. The videos can be chosen from the playlist and are played continuously.
 
 ### Run the project
 
