@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.link {
+  display: inline-block;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+.playlist {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.playlist__row {
+  color: var(--color-white);
+}
+
+.playlist__row--playing {
+  color: var(--color-gray);
+}
+
+.playlist__head,
+.playlist__cell {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-white);
+}

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import styles from "./AddVideo.module.css";
 
 class AddVideo extends Component {
@@ -28,7 +29,7 @@ class AddVideo extends Component {
 
   render() {
     return (
-      <div className={styles.wrapper}>
+      <section>
         <h3>Add a new video to the videoplayer</h3>
         <form
           className={styles.form}
@@ -59,8 +60,13 @@ class AddVideo extends Component {
             Add Video
           </button>
         </form>
-      </div>
+      </section>
     );
   }
 }
+
+AddVideo.propTypes = {
+  dispatchCreateVideo: PropTypes.func.isRequired
+};
+
 export default AddVideo;

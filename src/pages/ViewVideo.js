@@ -1,11 +1,11 @@
 import React from "react";
-import VideoPlayer from "../components/VideoPlayer";
-import PlayList from "../components/PlayList";
+import ViewVideoPlayer from "../containers/ViewVideoPlayer";
+import ViewPlayList from "../containers/ViewPlayList";
 
 const ViewVideo = () => (
   <>
-    <VideoPlayer />
-    <PlayList />
+    <ViewVideoPlayer />
+    <ViewPlayList />
   </>
 );
 

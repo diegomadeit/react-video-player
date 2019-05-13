@@ -20,3 +20,7 @@ body {
 p {
   text-align: justify;
 }
+
+section {
+  width: 100%;
+}
